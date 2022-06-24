@@ -7,6 +7,9 @@ buildscript {
         mavenCentral()
         google()
         jcenter()
+        maven {
+            url 'http://developers.maven.chenglie.tech/repository/maven-public/'
+        }
     }
 
     dependencies {
